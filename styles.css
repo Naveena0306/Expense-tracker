@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#balance {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#income-expense {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.money {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.plus {
+    color: green;
+}
+
+.minus {
+    color: red;
+}
+
+.history-list {
+    list-style-type: none;
+    margin-bottom: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.history-list li {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-right: 5px solid #f4f4f4;
+    border-radius: 5px;
+}
+
+.history-list li.plus {
+    border-right-color: green;
+}
+
+.history-list li.minus {
+    border-right-color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .btn {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn:hover {
+    background: #555;
+}
