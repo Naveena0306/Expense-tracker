@@ -1,2 +1,3 @@
 # Expense-tracker
 Expense tracker using html,css,js
+This project is a simple and intuitive Expense Tracker built using HTML, CSS, and JavaScript. The application allows users to add, view, and delete transactions, while dynamically updating the balance, income, and expenses. With a user-friendly interface designed using CSS, the tracker helps manage personal finances by categorizing transactions as either income or expenses. JavaScript handles the core functionality, including adding transactions to the history, calculating totals, and updating the displayed amounts in real-time. The repository includes all the necessary files and instructions to get the expense tracker running on your local machine.
